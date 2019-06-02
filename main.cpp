@@ -1,28 +1,3 @@
-# Arduino_serial
-
-## 主要函数
-
-`Serial.begin(speed, config)`:
-
-初始化串口的配置
-
-参数|功能
---|--
-`speed`|波特率
-`config`|数据位、校验位、停止位配置
-
-`Serial.print(val)`：
-
-使串口输出数据
-
-参数|功能
---|--
-`val`|输出的数据
-
-
-## 主要代码
-
-```C
 #include <Arduino.h>
 
 // 实现的功能：
@@ -43,4 +18,3 @@ void loop()
     Serial.println(re);   // 串口发送数据
   }
 }
-```
